@@ -1,0 +1,18 @@
+#Param file 
+#python_file='/Users/arjunkummetha/Desktop/Venkat_Project_work'                         
+#d_log=/Users/arjunkummetha/Desktop/Venkat_Project_work/logs/Log_$dt.log           
+#local_path=/Users/arjunkummetha/Desktop/Venkat_Project_work/unzipped_csv/files/`date +%Y_%m_%d_%H_%M_%S`
+#hdfs_path=/user/cloudera/hdfs/inputs_py
+#hdfs_path2=/user/harsha/hdfs/hdfs_path2
+
+
+#Param file 
+export python_file='/Users/arjunkummetha/Desktop/Venkat_Project_work'                         
+export d_log=/Users/arjunkummetha/Desktop/Venkat_Project_work/logs/Log_$dt.log           
+export local_path=/Users/arjunkummetha/Desktop/Venkat_Project_work/unzipped_csv/files/`date +%Y_%m_%d_%H_%M_%S`
+export hdfs_path=/user/cloudera/hdfs/inputs_py
+export hdfs_path2=/user/harsha/hdfs/hdfs_path2
+
+
+#export env='dev'
+#export query="LOAD DATA INFILE '/Users/arjunkummetha/Desktop/Venkat_Project_work/files/innovators1.csv' INTO TABLE innovators1 FIELDS TERMINATED BY ',' ENCLOSED BY '"' LINES TERMINATED BY '\n' IGNORE 1 ROWS; "
